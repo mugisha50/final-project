@@ -23,7 +23,7 @@ include 'config.php';
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Account || BOLT Sports Shop</title>
+    <title>My Account || Michael's Ebook Shop</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <script src="js/vendor/modernizr.js"></script>
   </head>
@@ -32,7 +32,7 @@ include 'config.php';
     <nav class="top-bar" data-topbar role="navigation">
       <ul class="title-area">
         <li class="name">
-          <h1><a href="index.php">BOLT Sports Shop</a></h1>
+          <h1><a href="index.php">Michael's Ebook Shop</a></h1>
         </li>
         <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
       </ul>
@@ -150,6 +150,7 @@ include 'config.php';
 
 
                   echo '<input type="email" id="right-label" placeholder="'. $obj->email. '" name="email">';
+				  
 
                   echo '</div>';
                   echo '</div>';
@@ -162,7 +163,9 @@ include 'config.php';
               echo '<label for="right-label" class="right inline">Password</label>';
               echo '</div>';
               echo '<div class="small-8 columns end">';
-              echo '<input type="password" id="right-label" name="pwd">';
+              echo '<input type="email" id="right-label" placeholder="'. $obj->password. '" name="password">';
+			  
+			
 
               echo '</div>';
               echo '</div>';
@@ -183,11 +186,11 @@ include 'config.php';
 
 
 
-    <div class="row" style="margin-top:30px;">
+    <div class="row" style="margin-top:30px; background-color:#FC3">
       <div class="small-12">
 
         <footer>
-           <p style="text-align:center; font-size:0.8em;">&copy; BOLT Sports Shop. All Rights Reserved.</p>
+           <p style="text-align:center; font-size:0.8em;">Copyright &copy; 2015 Michael Ebook Shop. All Rights Reserved.</p>
         </footer>
 
       </div>
